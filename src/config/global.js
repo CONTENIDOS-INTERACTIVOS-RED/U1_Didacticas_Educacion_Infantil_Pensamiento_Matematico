@@ -210,11 +210,7 @@ export default {
       link:
         'http://scielo.sld.cu/scielo.php?pid=S2308-01322022000300032&script=sci_arttext&tlng=pt',
     },
-    {
-      referencia:
-        'Núñez Caballero, A. M. B., & Zapata Rodríguez, M. K. (2018). Desarrollo del pensamiento matemático a través de juegos en alumnos del nivel inicial en la institución educativa particular Santa María Reina de Lima Norte–Comas-2015.',
-      link: 'https://repositorio.unjfsc.edu.pe/handle/20.500.14067/3314',
-    },
+
   ],
   glosario: [
     {
