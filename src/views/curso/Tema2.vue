@@ -106,13 +106,45 @@
           p.mb-4 Es importante destacar que <b>el desarrollo del concepto numérico no depende únicamente de la maduración cognitiva</b>, sino también del <b>contexto en el que se desenvuelve el niño</b>. Investigaciones recientes muestran que la estimulación temprana, el uso de lenguaje matemático en la interacción diaria y las experiencias concretas tienen un papel clave en la construcción del conocimiento numérico.
           .bg-amarillo.p-4.mb-4(data-aos='fade-up')
             p.mb-3.text-bold Ejemplos cotidianos que favorecen este desarrollo incluyen: 
-            span ●	Contar los escalones al subir una escalera.<br><br>●	Repartir juguetes entre amigos.<br><br>●	Identificar la cantidad de frutas en un plato.
+            ul.lista-ul.mb-3
+              li
+                i.lista-ul__vineta
+                | Contar los escalones al subir una escalera.
+              li
+                i.lista-ul__vineta
+                | Repartir juguetes entre amigos.
+              li
+                i.lista-ul__vineta
+                | Identificar la cantidad de frutas en un plato.
+            
       
       .row.bg-fondo-1.bg-full-width.py-4.mb-4
         div.px-5.pb-md-3
           p.mb-4 Estas situaciones permiten que el niño <b>interiorice nociones numéricas básicas</b> de manera significativa y contextualizada.
-          h2 Implicaciones educativas
-          p.mb-4 Comprender cómo evoluciona el pensamiento matemático infantil permite <b>diseñar estrategias pedagógicas adecuadas</b> para cada etapa. Algunas recomendaciones clave son:
+          h2 Implicaciones pedagógicas
+
+          p.mb-4 Comprender cómo evoluciona el pensamiento matemático infantil permite #[b diseñar estrategias pedagógicas adecuadas] para cada etapa.  Para asegurar la pertinencia de estas estrategias, es fundamental considerar que se pueden desarrollar en los diferentes grados del sistema educativo al cual se vinculan los niños desde la primera infancia hasta el último grado del ciclo de primaria en educación básica.  
+          .row.mb-4.justify-content-center
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-36a.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Párvulos (0 a 2 años aprox.)
+                p.px-1.text-small.mb-0.text-center Se prioriza la estimulación sensorial y motora.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-37a.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Pre jardín (2 a 3 años)
+                p.px-1.text-small.mb-0.text-center Se introducen experiencias de clasificación y reconocimiento de objetos.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-38a.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Jardín (3 a 4 años)
+                p.px-1.text-small.mb-0.text-center Mayor capacidad para el lenguaje y el pensamiento simbólico.
+            .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+              .custom-image-card.d-flex.flex-column.p-4.py-md-5
+                img.mx-auto.mb-4(src='@/assets/curso/unidad/img-39a.svg', style='width: 80px')
+                p.text-bold.mb-4.text-center Transición (5 años)
+                p.px-1.text-small.mb-0.text-center Se fortalece el pensamiento lógico y el inicio del conteo formal.
           .row.mb-4.justify-content-center
             .col-10.col-md-8.col-lg-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
               .custom-image-card.d-flex.flex-column.p-4.py-md-5
@@ -147,20 +179,20 @@
           .d-flex.align-items-start.bg-amarillo-oscuro.p-3(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
             img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-40.svg', alt='Texto descriptivo de la imagen')
             .my-auto
-              p.pe-xl-3.mb-3.text-bold Primero
-              span Cantidad
+              p.pe-xl-3.mb-3.text-bold Cantidad
+
         .col-10.col-md-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-up')
           .d-flex.align-items-start.bg-amarillo-oscuro.p-3(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
             img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-41.svg', alt='Texto descriptivo de la imagen')
             .my-auto
-              p.pe-xl-3.mb-3.text-bold Segundo 
-              span Orden
+              p.pe-xl-3.mb-3.text-bold Orden 
+
         .col-10.col-md-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-right')
           .d-flex.align-items-start.bg-amarillo-oscuro.p-3(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
             img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-42.svg', alt='Texto descriptivo de la imagen')
             .my-auto
-              p.pe-xl-3.mb-3.text-bold Tercero 
-              span Cardinalidad
+              p.pe-xl-3.mb-3.text-bold Cardinalidad 
+
       
       .row.mb-4
         .col-12.col-xl-8
@@ -213,31 +245,78 @@
 
       p.mb-4 Además, el <b>juego</b> tiene un papel central. Actividades como:
 
-      .row.mb-4
-        .col-10.col-md-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-          .d-flex.align-items-start.bg-amarillo-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-48.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-3.text-bold Primero
-              span Armar torres de bloques.
-        .col-10.col-md-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-          .d-flex.align-items-start.bg-amarillo-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-49.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-3.text-bold Segundo
-              span Clasificar objetos por color o tamaño.
-        .col-10.col-md-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-          .d-flex.align-items-start.bg-amarillo-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-50.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-3.text-bold Tercero
-              span Ordenar tarjetas numéricas.
-        .col-10.col-md-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
-          .d-flex.align-items-start.bg-amarillo-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
-            img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-51.svg', alt='Texto descriptivo de la imagen')
-            .my-auto
-              p.pe-xl-3.mb-3.text-bold Cuarto
-              span Cantar canciones con conteo.
+      .bg-full-width.bg-color-5
+        .px-4.px-md-5.pb-md-3
+          .row.justify-content-center.mb-5
+            .col-lg-4
+              figure
+                img(src='@/assets/curso/tema2/1.png', alt='')
+            .col-lg-8
+      
+              SlyderF(columnas="col-12 col-lg-6")
+                .bg-color-white.p-4.h-100.shadow-app.bordes
+                  img(src='@/assets/curso/tema2/icono-1.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Párvulos
+                  p.text-center #[em Estrategia sugerida:] actividades con bloques grandes, sonidos, texturas y juegos de exploración libre.
+
+                .bg-color-white.p-4.h-100.shadow-app.bordes
+                  img(src='@/assets/curso/tema2/icono-2.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Pre jardín
+                  p.text-center #[em Estrategia sugerida:] clasificación de objetos por color o forma, canciones con conteo simple, juegos con encajes.
+
+                .bg-color-white.p-4.h-100.shadow-app.bordes
+                  img(src='@/assets/curso/tema2/icono-3.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Jardín
+                  p.text-center #[em Estrategia sugerida:] juegos de seriación, uso de tarjetas numéricas, representación de cantidades con objetos.
+
+                .bg-color-white.p-4.h-100.shadow-app.bordes
+                  img(src='@/assets/curso/tema2/icono-4.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Transición
+                  p.text-center #[em Estrategia sugerida:] Resolución de problemas sencillos, juegos de suma y resta con objetos concretos, actividades con valor posicional inicial.
+                .bg-color-white.p-4.h-100.shadow-app.bordes
+                  img(src='@/assets/curso/tema2/icono-5.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Primero
+                  p.text-center #[em Estrategia sugerida:] armar torres de bloques.
+                .bg-color-white.p-4.h-100.shadow-app.bordes
+                  img(src='@/assets/curso/tema2/icono-6.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Segundo
+                  p.text-center #[em Estrategia sugerida:] clasificar objetos por color o tamaño.
+
+                .bg-color-white.p-4.h-100.shadow-app.bordes
+                  img(src='@/assets/curso/tema2/icono-7.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Tercero
+                  p.text-center #[em Estrategia sugerida:] ordenar tarjetas numéricas.
+                .bg-color-white.p-4.h-100.shadow-app.bordes
+                  img(src='@/assets/curso/tema2/icono-8.svg' alt='AvatarTop' style="max-width: 90px").mx-auto.mb-3
+                  h4.text-center.mb-4 Cuarto
+                  p.text-center #[em Estrategia sugerida:] cantar canciones con conteo.
+      
+
+      //- .row.mb-4
+      //-   .col-10.col-md-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+      //-     .d-flex.align-items-start.bg-amarillo-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+      //-       img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-48.svg', alt='Texto descriptivo de la imagen')
+      //-       .my-auto
+      //-         p.pe-xl-3.mb-3.text-bold Primero
+      //-         span Armar torres de bloques.
+      //-   .col-10.col-md-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+      //-     .d-flex.align-items-start.bg-amarillo-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+      //-       img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-49.svg', alt='Texto descriptivo de la imagen')
+      //-       .my-auto
+      //-         p.pe-xl-3.mb-3.text-bold Segundo
+      //-         span Clasificar objetos por color o tamaño.
+      //-   .col-10.col-md-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+      //-     .d-flex.align-items-start.bg-amarillo-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+      //-       img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-50.svg', alt='Texto descriptivo de la imagen')
+      //-       .my-auto
+      //-         p.pe-xl-3.mb-3.text-bold Tercero
+      //-         span Ordenar tarjetas numéricas.
+      //-   .col-10.col-md-6.col-xl-3.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
+      //-     .d-flex.align-items-start.bg-amarillo-oscuro.p-3.h-100(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
+      //-       img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-51.svg', alt='Texto descriptivo de la imagen')
+      //-       .my-auto
+      //-         p.pe-xl-3.mb-3.text-bold Cuarto
+      //-         span Cantar canciones con conteo.
 
       h2 Importancia educativa
 
@@ -247,29 +326,41 @@
         .col-12.col-xl-8
           p.mb-4 A medida que los niños consolidan estas nociones básicas, <b>forman una base sólida para aprendizajes matemáticos más complejos</b>:
           .bg-amarillo.p-4.mb-4(data-aos='fade-up')
-            span ●	La comprensión de la cantidad les permitirá realizar operaciones básicas.<br><br>●	La noción de orden favorecerá la organización de ideas y el razonamiento secuencial.<br><br>●	La <i>cardinalidad</i> facilitará la comprensión del valor numérico y su aplicación en diversas situaciones.
+            ul.lista-ul.mb-3
+              li
+                i.lista-ul__vineta
+                | La comprensión de la cantidad les permitirá realizar operaciones básicas.
+              li
+                i.lista-ul__vineta
+                | La noción de orden favorecerá la organización de ideas y el razonamiento secuencial.
+              li
+                i.lista-ul__vineta
+                | La cardinalidad facilitará la comprensión del valor numérico y su aplicación en diversas situaciones.
 
-          span Fomentar el pensamiento matemático desde la infancia no solo fortalece la comprensión de los números, sino también <b>habilidades cognitivas esenciales</b> como:
+            
+            //- span ●	La comprensión de la cantidad les permitirá realizar operaciones básicas.<br><br>●	La noción de orden favorecerá la organización de ideas y el razonamiento secuencial.<br><br>●	La <i>cardinalidad</i> facilitará la comprensión del valor numérico y su aplicación en diversas situaciones.
+
+          p Fomentar el pensamiento matemático desde la infancia no solo fortalece la comprensión de los números, sino también <b>habilidades cognitivas esenciales</b> como:
       
       .row.mb-4
         .col-10.col-md-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
           .d-flex.align-items-start.bg-amarillo-oscuro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
             img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-53.svg', alt='Texto descriptivo de la imagen')
             .my-auto
-              p.pe-xl-3.mb-3.text-bold Primero
-              span El razonamiento lógico.
+              p.pe-xl-3.mb-3.text-bold El razonamiento lógico.
+
         .col-10.col-md-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
           .d-flex.align-items-start.bg-amarillo-oscuro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
             img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-54.svg', alt='Texto descriptivo de la imagen')
             .my-auto
-              p.pe-xl-3.mb-3.text-bold Segundo
-              span La resolución de problemas.
+              p.pe-xl-3.mb-3.text-bold La resolución de problemas.
+
         .col-10.col-md-6.col-xl-4.mx-auto.mb-4.mb-xl-0(data-aos='zoom-in')
           .d-flex.align-items-start.bg-amarillo-oscuro.p-4(data-aos='fade-up').d-flex.align-items-center.flex-column.flex-md-row.mb-4
             img.me-3(style='width: 90px' src='@/assets/curso/unidad/img-55.svg', alt='Texto descriptivo de la imagen')
             .my-auto
-              p.pe-xl-3.mb-3.text-bold Tercero
-              span La toma de decisiones.
+              p.pe-xl-3.mb-3.text-bold La toma de decisiones.
+
       p.mb-4 Cada experiencia, cada juego y cada interacción representan <b>una oportunidad para descubrir que las matemáticas son una herramienta poderosa para entender y organizar el mundo</b>.
 
       .row.bg-morado.bg-full-width.py-4.mb-4
@@ -339,7 +430,7 @@
         div.px-5.pb-md-3.py-4.d-flex
           .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
             h2.mb-4.pb-2.me-auto Aplicación práctica de cada estrategia
-            p.mb-5(data-aos="fade-up") Se invita a leer el documento Aplicación práctica de cada estrategia , donde se aborda el desarrollo del pensamiento numérico en la educación infantil mediante enfoques activos y contextualizados. Este material ofrece explicaciones, propuestas didácticas y ejemplos prácticos, con el fin de fortalecer el aprendizaje significativo de los números a través del juego, el lenguaje, la manipulación de objetos y la resolución de problemas.
+            p.mb-5(data-aos="fade-up") Se invita a leer el documento Aplicación práctica de cada estrategia, donde se aborda el desarrollo del pensamiento numérico en la educación infantil mediante enfoques activos y contextualizados. Este material ofrece explicaciones, propuestas didácticas y ejemplos prácticos, con el fin de fortalecer el aprendizaje significativo de los números a través del juego, el lenguaje, la manipulación de objetos y la resolución de problemas.
             a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Aplicación_práctica_de_cada_estrategia.pdf')" target="_blank")
               img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
               p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Aplicación práctica de cada estrategia

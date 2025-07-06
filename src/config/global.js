@@ -1,7 +1,8 @@
 export default {
   global: {
     numeroUnidad: '1',
-    tituloUnidad: 'Matemáticas en la infancia por medio de la lógica',
+    tituloUnidad:
+      'Pensamiento matemático en la educación infantil matemática en la infancia por medio de la lógica',
   },
   menuPrincipal: {
     menu: [

@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'1. Introducción a la pertinencia y funcionalidad de la propuesta didáctica'")
+  BannerInterno(:subTitulo="'1. Introducción al pensamiento matemático en la infancia'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-4
@@ -208,7 +208,7 @@
       div.px-5.pb-md-3.py-4.d-flex
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column
           h2.mb-4.pb-2.me-auto Desarrollo del pensamiento lógico-matemático en la primera infancia
-          p.mb-5(data-aos="fade-up") Se invita a leer el documento Desarrollo del pensamiento lógico-matemático en la primera infanci a, donde se aborda cómo los niños pequeños desarrollan habilidades lógicas y matemáticas a través del juego, la exploración y la interacción con su entorno.
+          p.mb-5(data-aos="fade-up") Se invita a leer el documento Desarrollo del pensamiento lógico-matemático en la primera infancia, donde se aborda cómo los niños pequeños desarrollan habilidades lógicas y matemáticas a través del juego, la exploración y la interacción con su entorno.
           a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="fade-up" :href="obtenerLink('/downloads/Anexos_Desarrollo_del_pensamiento.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Desarrollo del pensamiento lógico-matemático en la primera infancia
